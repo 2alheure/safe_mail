@@ -6,6 +6,7 @@
     - [Do not just delete it](#do-not-just-delete-it)
   - [This component](#this-component)
   - [Usage](#usage)
+  - [Props](#props)
 
 ## Description
 We all know this kind of situation: you have a landing page, allowing people to send you a contact message at the bottom of the page.  
@@ -38,7 +39,7 @@ import SafeMail from "@2alheure/vue-safe-mail";
 
 export default {
   components: {
-    DataTable
+    SafeMail
   },
   data() {
     return {
@@ -51,3 +52,9 @@ export default {
 ```
 
 It renders a `<a>` tag with a `href` attribute pointing to the given email... but protected against bots harvest. =P
+
+## Props
+| Name  |  Type  | Default value | Description                                       |
+| :---- | :----: | :-----------: | ------------------------------------------------- |
+| email | String |    `null`     | The email.                                        |
+| title | String |    `null`     | The `title` attribute of the generated `<a>` tag. |
