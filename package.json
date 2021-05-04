@@ -1,0 +1,23 @@
+{
+  "name": "@2alheure/vue-safe-mail",
+  "version": "1.0.0",
+  "description": "A Vue.js component to safely print your email on your website",
+  "main": "src/SafeMail.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2alheure/safe_mail.git"
+  },
+  "keywords": [
+    "mail",
+    "vue.js"
+  ],
+  "author": "2alheure",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/2alheure/safe_mail/issues"
+  },
+  "homepage": "https://github.com/2alheure/safe_mail#readme"
+}

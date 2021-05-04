@@ -37,13 +37,11 @@ export default {
   },
   methods: {
     mailClicked(e) {
-      if (this.emailAlreadyClicked) return;
-      // Lien déjà retourné donc comportement du lien par défaut
+      if (this.emailAlreadyClicked) return; // Link already reversed so no need to compute anymore
       else {
         e.preventDefault;
         this.emailAlreadyClicked = true;
         e.target.href = "mailto:" + this.email;
-        console.log(e.target.href);
         e.target.click();
       }
     },
