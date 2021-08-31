@@ -1,6 +1,8 @@
-# A Vue.js component to safely print your email on your website
+# Vue.js Safe Mail
+A Vue.js component to safely print your email on your website.  
+This component is compatible with Vue 3.
 
-- [A Vue.js component to safely print your email on your website](#a-vuejs-component-to-safely-print-your-email-on-your-website)
+- [Vue.js Safe Mail](#vuejs-safe-mail)
   - [Description](#description)
     - [And then it begins...](#and-then-it-begins)
     - [Do not just delete it](#do-not-just-delete-it)

@@ -1,6 +1,6 @@
 {
   "name": "@2alheure/vue-safe-mail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vue.js component to safely print your email on your website",
   "main": "src/SafeMail.vue",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "mail",
+    "Vue 3",
     "vue.js"
   ],
   "author": "2alheure <contact@2alheure.fr>",
